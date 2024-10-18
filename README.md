@@ -25,17 +25,17 @@
 
 ## API Endpoints
 1. Update Score
- URL: http://localhost:3000/update-score/:playerId/score'
- Method: POST
- request-body: { "score" : 115 }
+ - URL: http://localhost:3000/update-score/:playerId/score'
+ - Method: POST
+ - request-body: { "score" : 115 }
 
 2. Get top players
- URL: http://localhost:3000/leaderboard'
- Method: GET
+ - URL: http://localhost:3000/leaderboard'
+ - Method: GET
 
 ## Web Socket
- Event: updateLeaderboard
- Description: Emits the updated leaderboard to all connected clients whenever a score is updated.
+ - Event: updateLeaderboard
+ - Description: Emits the updated leaderboard to all connected clients whenever a score is updated.
 
 ## Testing
- For testing you can use Postman
+ - For testing you can use Postman
